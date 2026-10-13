@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Secrets & environment configurations (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+frontend/dist/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Testing & coverage
+coverage/
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
